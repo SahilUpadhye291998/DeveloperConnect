@@ -22,7 +22,7 @@ router.get("/test", (request, response) => {
     });
 });
 
-//@route    GET api/users/resgister
+//@route    POST api/users/resgister
 //@desc     To register the user
 //@access   PUBLIC 
 router.post("/resgister", (request, response) => {
